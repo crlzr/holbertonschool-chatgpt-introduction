@@ -1,5 +1,15 @@
 # Class to manage a checkbook with deposit, withdraw, and balance inquiry functionalities
 
+# Function descriptions:
+# 1. deposit(amount): Deposit money into the checkbook.
+# 2. withdraw(amount): Withdraw money from the checkbook.
+# 3. get_balance(): Get the current balance of the checkbook.
+
+# Parameters and returns:
+# - deposit(amount): Parameters: amount (float). Returns: None.
+# - withdraw(amount): Parameters: amount (float). Returns: None.
+# - get_balance(): Parameters: None. Returns: None.
+
 class Checkbook:
     def __init__(self):
         self.balance = 0.0
